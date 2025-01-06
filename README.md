@@ -19,6 +19,7 @@ transformers==4.47.1
 torch==2.5.1+cu118
 scikit-learn==1.6.0
 gensim==4.3.3
+seaborn==0.13.2
 
 To install a package, go to your terminal and run `pip install <package_name>==<version>`.
 
