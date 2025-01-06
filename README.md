@@ -2,7 +2,11 @@
 
 Welcome to the **Introduction to NLP** course repository! 
 
-🎓 This repository contains Jupyter notebooks designed to help you learn the basics of Natural Language Processing through hands-on examples and exercises.
+This repository contains Jupyter notebooks designed to help you learn the basics of Natural Language Processing through hands-on examples and exercises.
+
+The notebooks are designed to accompany the Introduction to NLP course which can be found here: 
+https://learn.365datascience.com/courses/nlp
+https://www.udemy.com/course/intro-to-natural-language-processing-in-python-for-ai/
 
 ## Installed Packages
 
@@ -22,8 +26,11 @@ scikit-learn==1.6.0
 gensim==4.3.3
 seaborn==0.13.2
 ```
-
 To install a package, go to your terminal and run `pip install <package_name>==<version>`.
+
+## Updates
+
+The world of data science and AI is constantly evolving — new techniques, models, and best practices are emerging all the time. So, while we do our best to keep everything up to date, sometimes the code in this repo may get updated before the accompanying video lessons. To make sure you're getting the most out of this course, we recommend you always use the latest code alongside the video lessons while we work on updating those. 
 
 ## Setting up a Virtual Environment
 
