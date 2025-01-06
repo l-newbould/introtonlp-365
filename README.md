@@ -25,5 +25,62 @@ To install a package, go to your terminal and run `pip install <package_name>==<
 
 ## Setting up a Virtual Environment
 
+Virtual environments are a great way to manage different packages for different projects. Creating a virtual environment for this section of the course allows you to ensure you can use the correct packages to follow along, without affecting any other packages you already have installed. 
+
+You'll also want to set up a Jupyter kernel in your virtual environment so you can run the Jupyter notebooks. 
+
+Doing this is easy, just follow along below. 
+
+Install virtualenv
+
+```
+pip install virtualenv
+```
+
+Create your virtual environment in a directory of your choice
+
+```
+virtualenv yourenvname # replace yourenvname with any name you like
+``` 
+
+Activate the virtual environment 
+
+```
+# on mac or linux
+source myenv/bin/activate
+
+# on windows
+myenv\Scripts\activate
+```
+
+Install jupyter
+
+```
+pip install jupyter
+pip install ipython
+pip install ipykernel
+```
+
+```
+ipython kernel install --user --name=myenv
+python -m ipykernel install --user --name=myenv
+```
+
+Install the bash kernel
+
+```
+pip install bash_kernel
+python -m bash_kernel.install
+```
+
+Start your jupyter notebook
+
+```
+jupyter notebook
+```
+
+Then when in the notebook, remember to change the kernel to "myenv". 
+
+Make sure to then install any packages within this virtual environment. 
 
 
