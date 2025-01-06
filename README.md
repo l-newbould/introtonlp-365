@@ -8,8 +8,14 @@ Welcome to the **Introduction to NLP** course repository!
 
 These are the installed packages and versions used for this course. 
 
-nltk=3.9.1
-pandas=2.2.3
-matplotlib=3.10.0
-spacy=3.8.3
-en_core_web_sm=3.8.0
+nltk==3.9.1
+pandas==2.2.3
+matplotlib==3.10.0
+spacy==3.8.3
+en_core_web_sm==3.8.0
+textblob==0.18.0.post0
+vaderSentiment=3.3.2
+transformers==4.47.1
+torch==2.5.1+cu118
+scikit-learn==1.6.0
+
