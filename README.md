@@ -2,7 +2,6 @@
 
 Welcome to the **Introduction to NLP** course repository! 
 
-<<<<<<< HEAD
 🎓 This repository contains Jupyter notebooks designed to help you learn the basics of Natural Language Processing through hands-on examples and exercises.
 
 ## Installed Packages
@@ -84,7 +83,4 @@ Then when in the notebook, remember to change the kernel to "myenv".
 
 Make sure to then install any packages within this virtual environment. 
 
-=======
-🎓 This repository contains Jupyter notebooks designed to help you learn the basics of Natural Language Processing (NLP) through hands-on examples and exercises.
->>>>>>> f5f037656f1bd01188f70546802a1a48de6bf00c
 
