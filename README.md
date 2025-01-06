@@ -8,6 +8,7 @@ Welcome to the **Introduction to NLP** course repository!
 
 These are the installed packages and versions used for this course. All were installed on a virtual environment (please see the section below to learn more about virtual environments and set up your own) using pip.
 
+```
 nltk==3.9.1
 pandas==2.2.3
 matplotlib==3.10.0
@@ -20,6 +21,7 @@ torch==2.5.1+cu118
 scikit-learn==1.6.0
 gensim==4.3.3
 seaborn==0.13.2
+```
 
 To install a package, go to your terminal and run `pip install <package_name>==<version>`.
 
