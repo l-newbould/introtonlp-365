@@ -1,0 +1,6 @@
+['sam was a great help to me in the store', 
+ 'the cashier was very rude to me, I think her name was eleanor', 
+ 'amazing work from sadeen!', 
+ 'sarah was able to help me find the items i needed quickly', 
+ 'lucy is such a great addition to the team', 
+ 'great service from sara she found me what i wanted']
