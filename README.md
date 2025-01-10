@@ -12,86 +12,42 @@ https://www.udemy.com/course/intro-to-natural-language-processing-in-python-for-
 
 ## Installed Packages
 
-These are the installed packages and versions used for this course. All were installed on a virtual environment (please see the section below to learn more about virtual environments and set up your own) using pip.
+These are the installed packages and versions used for this course. All were installed in a conda environment (see below for how I created this). 
+
+python=3.11
 
 ```
-nltk==3.9.1
-pandas==2.2.3
-matplotlib==3.10.0
-spacy==3.8.3
-en_core_web_sm==3.8.0
-textblob==0.18.0.post0
-vaderSentiment=3.3.2
-transformers==4.47.1
-torch==2.5.1+cu118
-scikit-learn==1.6.0
-gensim==4.3.3
-seaborn==0.13.2
+nltk==3.9.1 
+pandas==2.2.3 
+matplotlib==3.10.0 
+spacy==3.8.3 
+textblob==0.18.0.post0 
+vaderSentiment==3.3.2 
+transformers==4.47.1 
+scikit-learn==1.6.0 
+gensim==4.3.3 
+seaborn==0.13.2 
+torch==2.5.1 
+ipywidgets==8.1.5
 ```
-To install a package, go to your terminal and run `pip install <package_name>==<version>`.
 
 ## Updates
 
 The world of AI is constantly evolving with new techniques and models emerging all the time. So, while we do our best to keep everything up to date, sometimes the code in this repo may get updated before the accompanying video lessons. To make sure you're getting the most out of this course, we recommend you always use the latest code here alongside the video lessons, while we work on updating the videos. 
 
-## Setting up a Virtual Environment
+## Conda Environment
 
 Virtual environments are a great way to manage different packages for different projects. Creating a virtual environment for this section of the course allows you to ensure you can use the correct packages to follow along, without affecting any other packages you already have installed. 
 
-You'll also want to set up a Jupyter kernel in your virtual environment so you can run the Jupyter notebooks. 
-
-Doing this is easy, just follow along below. 
-
-Install virtualenv
-
 ```
-pip install virtualenv
-```
-
-Create your virtual environment in a directory of your choice
-
-```
-virtualenv yourenvname # replace yourenvname with any name you like
-``` 
-
-Activate the virtual environment 
-
-```
-# on mac or linux
-source myenv/bin/activate
-
-# on windows
-myenv\Scripts\activate
+conda create --name nlp_course_env python=3.11
+conda activate nlp_course_env
+pip install nltk==3.9.1 pandas==2.2.3 matplotlib==3.10.0 spacy==3.8.3 textblob==0.18.0.post0 vaderSentiment==3.3.2 transformers==4.47.1 scikit-learn==1.6.0 gensim==4.3.3 seaborn==0.13.2 torch==2.5.1 ipywidgets==8.1.5
+python -m spacy download en_core_web_sm
+pip install ipykernel jupyterlab notebook
+python -m ipykernel install --user --name=nlp_course_env
 ```
 
-Install jupyter
-
-```
-pip install jupyter
-pip install ipython
-pip install ipykernel
-```
-
-```
-ipython kernel install --user --name=myenv
-python -m ipykernel install --user --name=myenv
-```
-
-Install the bash kernel
-
-```
-pip install bash_kernel
-python -m bash_kernel.install
-```
-
-Start your jupyter notebook
-
-```
-jupyter notebook
-```
-
-Then when in the notebook, remember to change the kernel to "myenv". 
-
-Make sure to then install any packages within this virtual environment. 
+Then when in the notebook, remember to check the kernel is set to "nlp_course_env". 
 
 
